@@ -30,7 +30,7 @@ function open_in_aseprite(opts)
     local binpath = aseprite_bin()
     return {{
         action = "shell",
-        command = {aseprite_bin(), filepath}
+        command = {aseprite_bin(), "terrible test"}
     }}
 end
 
